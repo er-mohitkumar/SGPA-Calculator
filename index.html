@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"
+        content="width=device-height, initial-scale=1" />
+
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body id="bd">
+    <div class="home">
+        <div id="webBody">
+            <div>
+                <h1>Welcome to SGPA Calculator</h1>
+            </div>
+            <div>
+                <p>Please Enter the details below: </p>
+            </div>
+            <div>
+                <form class="details" method="POST"
+                    action="https://script.google.com/macros/s/AKfycbyxFbAiWg-TeLrJjf-J_FZuyO0G8UtTe6GsOQ3_zaasp9ItNMfexPtcys5JYrD2qUw/exec"
+                    name="details">
+                    <table>
+                        <tr>
+                            <td>Your Department :</td>
+                            <td>
+                                <select name="Department" id="dept" onchange="selectDept()">
+                                    <option value="CS" selected>Computer Science</option>
+                                    <option value="CE">Civil Engineering</option>
+                                    <option value="EC">Electronics & Communication</option>
+                                    <option value="EE">Electrical Engineering</option>
+                                    <option value="IT">Informating Technology</option>
+                                    <option value="ME">Mechanical Engineering</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Result Year :</td>
+                            <td>
+                                <select name="Year" id="year">
+                                    <option value="First" selected>First Year </option>
+                                    <option value="Second">Second Year</option>
+                                    <option value="Third">Third Year</option>
+                                    <option value="Fourth">Fourth Year</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your Name : </td>
+                            <td>
+                                <input id="Name" type="text" name="Name" placeholder="Your name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your RTU roll no. :</td>
+                            <td>
+                                <input type="text" placeholder="Roll no. " name="Roll" id="Roll">
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit" onclick="submitHandler()">
+                </form>
+            </div>
+        </div>
+        <div id="loadingIcon" style="display: none;">
+            <!-- Your loading icon here -->
+            <img src="Loading.gif" alt="Loading..." width="50px" />
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
