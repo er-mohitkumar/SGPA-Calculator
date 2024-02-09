@@ -18,12 +18,12 @@ body {
 
   
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     color: #4a86e8;
   }
   
   p {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     margin-bottom: 20px;
   }
@@ -69,5 +69,5 @@ body {
   }
 
   .list{
-    font-size: 1.5em;
+    font-size: 1em;
   }
