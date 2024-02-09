@@ -7,10 +7,7 @@
 
     <title>SGPA Calculator</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
+
 </head>
 
 <body id="bd">
@@ -20,15 +17,15 @@
                 <h1>Welcome to SGPA Calculator</h1>
             </div>
             <div>
-                <p>Please Enter the details below: </p>
+                <p>Please Select the details below: </p>
             </div>
             <div>
-                <form class="details" method="POST"
-                    action="https://script.google.com/macros/s/AKfycbyxFbAiWg-TeLrJjf-J_FZuyO0G8UtTe6GsOQ3_zaasp9ItNMfexPtcys5JYrD2qUw/exec"
-                    name="details">
+                <form class="details" name="details">
                     <table>
                         <tr>
-                            <td>Your Department :</td>
+                            <td class="list">Your Department :</td>
+                        </tr>
+                        <tr>
                             <td>
                                 <select name="Department" id="dept" onchange="selectDept()">
                                     <option value="CS" selected>Computer Science</option>
@@ -41,7 +38,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Result Year :</td>
+                            <td class="list">Result Year :</td>
+                        </tr>
+                        <tr>
                             <td>
                                 <select name="Year" id="year">
                                     <option value="First" selected>First Year </option>
@@ -51,18 +50,7 @@
                                 </select>
                             </td>
                         </tr>
-                        <tr>
-                            <td>Your Name : </td>
-                            <td>
-                                <input id="Name" type="text" name="Name" placeholder="Your name">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Your RTU roll no. :</td>
-                            <td>
-                                <input type="text" placeholder="Roll no. " name="Roll" id="Roll">
-                            </td>
-                        </tr>
+
                     </table>
                     <input type="submit" value="Submit" onclick="submitHandler()">
                 </form>
