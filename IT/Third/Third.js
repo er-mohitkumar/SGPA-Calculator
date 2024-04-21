@@ -49,7 +49,7 @@ function calculate() {
     }
 }
 function FifthSem() {
-    let ITC = gradePoint(document.getElementById("ITC").value);
+    let MPI = gradePoint(document.getElementById("MPI").value);
     let CD = gradePoint(document.getElementById("CD").value);
     let OS = gradePoint(document.getElementById("OS").value);
     let CGM = gradePoint(document.getElementById("CGM").value);
@@ -62,7 +62,7 @@ function FifthSem() {
     let IT = gradePoint(document.getElementById("IT").value);
     let SODECA5 = gradePoint(document.getElementById("SODECA5").value);
 
-    ITC *= 2;
+    MPI *= 2;
     CD *= 3;
     OS *= 3;
     CGM *= 3;
@@ -75,7 +75,7 @@ function FifthSem() {
     IT *= 2.5;
     SODECA5 *= 0.5;
 
-    let totalGradePoints = ITC + CD + OS + CGM + AOA + WCHCIB + CGML + CDL + AOAL + AJL + IT + SODECA5;
+    let totalGradePoints = MPI + CD + OS + CGM + AOA + WCHCIB + CGML + CDL + AOAL + AJL + IT + SODECA5;
     let RESULT = totalGradePoints / 23;
     alert(`Your SGPA is : ${RESULT}`);
     document.getElementById("result").value = RESULT.toFixed(2);
@@ -87,12 +87,13 @@ function SixthSem() {
     let ISS = gradePoint(document.getElementById("ISS").value);
     let CAO = gradePoint(document.getElementById("CAO").value);
     let AI = gradePoint(document.getElementById("AI").value);
-    let CC = gradePoint(document.getElementById("CC").value);
+    let DS = gradePoint(document.getElementById("DS").value);
     let DSSDNEE = gradePoint(document.getElementById("DSSDNEE").value);
     let DIPL = gradePoint(document.getElementById("DIPL").value);
     let MLL = gradePoint(document.getElementById("MLL").value);
     let PL = gradePoint(document.getElementById("PL").value);
     let MADL = gradePoint(document.getElementById("MADL").value);
+    let CL = gradePoint(document.getElementById("CL").value);
     let SODECA6 = gradePoint(document.getElementById("SODECA6").value);
 
     DIP *= 2;
@@ -100,15 +101,16 @@ function SixthSem() {
     ISS *= 2;
     CAO *= 3;
     AI *= 2;
-    CC *= 3;
+    DS *= 3;
     DSSDNEE *= 2;
-    DIPL *= 1.5;
+    DIPL *= 1;
     MLL *= 1.5;
     PL *= 1.5;
-    MADL *= 1.5;
+    MADL *= 1;
+    CL *= 1;
     SODECA6 *= 0.5;
 
-    let totalGradePoints = DIP + ML + ISS + CAO + AI + CC + DSSDNEE + DIPL + MLL + PL + MADL + SODECA6;
+    let totalGradePoints = DIP + ML + ISS + CAO + AI + DS + DSSDNEE + DIPL + MLL + PL + MADL + CL + SODECA6;
     let RESULT = totalGradePoints / 23.5;
     alert(`Your SGPA is : ${RESULT}`);
     document.getElementById("result").value = RESULT.toFixed(2);
