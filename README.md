@@ -34,10 +34,6 @@ We welcome contributions to enhance and improve the SGPA Calculator. If you're i
 
 Your feedback is valuable in helping us improve the SGPA Calculator. If you have any suggestions, feature requests, or encounter any issues while using the calculator, please feel free to open an issue on GitHub or reach out to us directly.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the calculator for personal or commercial purposes.
-
 ---
 
 Thank you for using the SGPA Calculator! We hope this tool helps you track your academic performance more efficiently. If you find it useful, don't forget to star the repository and share it with your fellow CS and IT students!
