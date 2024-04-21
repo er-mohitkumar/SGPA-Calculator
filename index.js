@@ -4,7 +4,7 @@ function selectDept() {
     var select = document.getElementById("dept");
     var selectedValue = select.options[select.selectedIndex].value;
 
-    if (selectedValue !== 'CS') {
+    if (selectedValue !== 'CS' && selectedValue !== 'IT') {
         alert('This page is in developing stage, Please select other Department!');
         select.value = 'CS';
     }
