@@ -23,13 +23,6 @@ We welcome contributions to enhance and improve the SGPA Calculator. If you're i
 2. **Make Changes**: Make the desired changes or improvements to the calculator.
 3. **Submit Pull Request**: Once your changes are ready, submit a pull request, and we'll review your contribution.
 
-## Roadmap
-
-- **Branch Support**: Extend the calculator to support other branches besides CS and IT.
-- **UI Enhancements**: Implement additional features and improve the user interface for better usability.
-- **Error Handling**: Enhance error handling and provide meaningful error messages for users.
-- **Performance Optimization**: Optimize the calculator for faster calculations and improved efficiency.
-
 ## Feedback
 
 Your feedback is valuable in helping us improve the SGPA Calculator. If you have any suggestions, feature requests, or encounter any issues while using the calculator, please feel free to open an issue on GitHub or reach out to us directly.
